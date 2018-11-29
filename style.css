@@ -57,71 +57,76 @@ p {
 }
 
 /* Media Queries */
-
 @media screen and (max-width: 980px) {
   body {
-    width: 100%;
-    height: auto;
+   width: 100%;
   }
   
+  header,
+  nav,
+  section,
+  aside,
+  article,
+  footer {
+   float: none;
+  }
   
   section,
-  p,
+  aside,
   header,
-  article {
-    height: auto;
-    width: 90%;
-    padding: 20px;
-  }
-
- aside {
-    height: auto;
-    width: 100%;
-    margin-top: 15px;
+  footer,
+  nav{
+   clear:both;
+   width:90%;
   }
 }
 
 @media screen and (max-width: 768px) {
-  body{
-    width: 100%;
-    height: auto;
+  body {
+   width: 100%;
+  }
+  
+  header,
+  nav,
+  section,
+  aside,
+  article,
+  footer {
+   float: none;
   }
   
   section,
-  p,
+  aside,
   header,
-  article {
-    height: auto;
-    width: 90%;
-    padding: 20px;
+  footer,
+  nav{
+   clear:both;
+   width:90%;
   }
-
- aside {
-    height: auto;
-    width: 100%;
-    margin-top: 15px;
-  }
-
 }
 
 @media screen and (max-width: 640px) {
   body {
-    width: 100%;
-    height: auto;
+   width: 100%;
+  }
+  
+  header,
+  nav,
+  section,
+  aside,
+  article,
+  footer {
+   float: none;
   }
   
   section,
-  p,
+  aside,
   header,
-  article {
-    height: auto;
-    width: 90%;
-    padding: 20px;
-  }
-
- aside {
-    height: auto;
-    width: 100%;
-    margin-top: 15px;
+  footer,
+  nav{
+   clear:both;
+   width:90%;
   }
 }
+
+
